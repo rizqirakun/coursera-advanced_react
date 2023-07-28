@@ -5,35 +5,35 @@ import Card from "./Card";
 
 const projects = [
   {
-    title: "React Space",
+    title: "Smart Home Automation",
     description:
-      "Handy tool belt to create amazing AR components in a React app, with redux integration via middleware️",
-    getImageSrc: () => require("../images/photo1.jpg"),
+      "Experience the future with our cutting-edge smart home solutions. Control your home's lighting, security, and appliances effortlessly. Embrace a smarter lifestyle today",
+    getImageSrc: () => require("../images/smart-home-automation.jpg"),
   },
   {
-    title: "React Infinite Scroll",
+    title: "Virtual Reality Gaming",
     description:
-      "A scrollable bottom sheet with virtualisation support, native animations at 60 FPS and fully implemented in JS land 🔥️",
-    getImageSrc: () => require("../images/photo2.jpg"),
+      "Dive into immersive virtual worlds with our advanced VR gaming setup. Experience action, adventure, and excitement like never before. Get ready for the ultimate gaming journey",
+    getImageSrc: () => require("../images/virtual-reality-gaming.jpg"),
   },
   {
-    title: "Photo Gallery",
+    title: "5G Connectivity",
     description:
-      "A One-stop shop for photographers to share and monetize their photos, allowing them to have a second source of income",
-    getImageSrc: () => require("../images/photo3.jpg"),
+      "Stay connected at lightning speed with 5G technology. Experience seamless streaming, faster downloads, and lag-free video calls. Embrace the power of 5G today",
+    getImageSrc: () => require("../images/5g-connectivity.jpg"),
   },
   {
-    title: "Event planner",
+    title: "AI-Powered Assistants",
     description:
-      "A mobile application for leisure seekers to discover unique events and activities in their city with a few taps",
-    getImageSrc: () => require("../images/photo4.jpg"),
+      "Enhance your productivity with AI-powered virtual assistants. Schedule tasks, set reminders, and get real-time information with ease. Let AI simplify your life",
+    getImageSrc: () => require("../images/ai-powered-assistans.jpg"),
   },
 ];
 
 const ProjectsSection = () => {
   return (
     <FullScreenSection
-      backgroundColor="#14532d"
+      backgroundColor="#5a76a0"
       isDarkBackground
       p={8}
       alignItems="flex-start"
