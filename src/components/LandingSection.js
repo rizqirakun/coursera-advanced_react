@@ -19,8 +19,8 @@ const LandingSection = () => (
         <Heading as="h4" size="lg" noOfLines={1} lineHeight="normal">{greeting}</Heading>
       </VStack>
       <VStack spacing={6}>
-        <Heading as="h1" size="3xl" noOfLines={1} lineHeight="normal">{bio1}</Heading>
-        <Heading as="h1" size="3xl" noOfLines={1} lineHeight="normal">{bio2}</Heading>
+        <Heading as="h1" size={{ base: "xl", md: "2xl", lg: "3xl" }} noOfLines={1} lineHeight="normal">{bio1}</Heading>
+        <Heading as="h1" size={{ base: "xl", md: "2xl", lg: "3xl" }} noOfLines={1} lineHeight="normal">{bio2}</Heading>
       </VStack>
     </VStack>
   </FullScreenSection>
